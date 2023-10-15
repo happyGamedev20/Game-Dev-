@@ -1,0 +1,206 @@
+
+html {
+    height: 100%;
+}
+
+
+
+body {
+
+    background-image: url(images/Screenshot\ 2023-10-12\ at\ 6.52.59\ PM.png);
+    padding: 0px;
+    margin:0px;
+}
+
+.DivMaster {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index:2;
+
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-name: DivMasterEffect;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+
+}
+
+.SpanMaster {
+    font-family: Unica system-ui, -apple-system,  BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,  'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    color: #333;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    letter-spacing: 5px;
+    z-index: 5;
+
+
+    animation-name: SpanMasterEffect;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+
+
+@keyframes DivMasterEffect {
+    from {
+        height: 1000vh;
+    }
+
+    to {
+        height: 0vh;
+    }
+}
+
+
+@keyframes SpanMasterEffect {
+    from {
+        top: 50%;
+        opacity: 1;
+    }
+
+    to {
+        top:35%;
+        opacity: 0;
+    }
+}
+
+nav {
+
+    height: 40px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+main {
+
+    height: 400px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 160xpx;
+}
+
+footer {
+
+    height: 100px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h1{
+    font-size: 80px;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.text {
+  color: black;    
+}
+
+
+
+
+
+
+.ContactMe {
+    color: aqua;
+    font-size: 21px;
+    text-align: end;
+    text-decoration: underline;
+}
+
+/* Product */
+
+.Product {
+    position: relative;
+    overflow: hidden;
+    padding: 250px 0;
+}
+
+
+
+.ProductCategory {
+    padding: 0vw;
+    font-size:30px;
+    font-weight: 50px;
+    margin-bottom: 60px;
+}
+
+.link {
+    font-style: oblique;
+}
+
+.text2 {
+    font-size: 30px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text3 {
+    font-size: 50px;
+    color: black;
+    padding: 543px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text4 {
+    font-size: 50px;
+    color: black;
+    padding: 500px 0px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.text5 {
+    font-size: 25px;
+    color: black;
+    padding: 0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.text6 {
+    font-size: 25px;
+    color: black;
+    padding: 0px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.text7 {
+    font-size: 35px;
+    padding: 150px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text8 {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+
+.text9 {
+    font-size: 55px;
+    color: black;
+    padding: 1000px 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
